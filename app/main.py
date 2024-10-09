@@ -1,8 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(
-    title='Склад'
-)
+app = FastAPI(title='Склад')
 
 
 @app.get("/")

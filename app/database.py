@@ -1,4 +1,4 @@
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+from sqlalchemy.ext.asyncio import create_async_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 from config import DB_USER, DB_PASS, DB_HOST, DB_PORT, DB_NAME
 
